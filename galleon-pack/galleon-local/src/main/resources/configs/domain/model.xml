@@ -9,5 +9,7 @@
     <packages>
         <package name="product.conf" optional="true"/>
         <package name="misc.domain"/>
+        <!-- Experimental API Index -->
+        <package name="experimental-api-index.wildfly-galleon-pack"/>
     </packages>
 </config>

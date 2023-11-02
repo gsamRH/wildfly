@@ -660,6 +660,22 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.wildfly.experimental.api</groupId>
+                <artifactId>experimental-api-classpath-indexer-plugin</artifactId>
+                <configuration>
+                    <outputFile>${project.build.directory}/index/wildfly-galleon-pack.txt</outputFile>
+                    <filters>
+                        <filter>
+                            <annotation>io.smallrye.common.annotation.Experimental</annotation>
+                            <groupIds>
+                                <groupId>io.smallrye</groupId>
+                                <groupId>io.smallrye.*</groupId>
+                            </groupIds>
+                        </filter>
+                    </filters>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

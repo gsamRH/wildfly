@@ -34,5 +34,7 @@
         <package name="org.jboss.common-beans" optional="true"/>
         <package name="docs.licenses" optional="true"/>
         <package name="docs.licenses.merge" optional="true"/>
+        <!-- Experimental API Index -->
+        <package name="experimental-api-index.wildfly-ee-feature-pack"/>
     </packages>
 </config>
