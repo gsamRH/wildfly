@@ -370,6 +370,21 @@
             <artifactId>wildfly-naming-client</artifactId>
             <scope>test</scope>
         </dependency>
+
+
+
+        <!-- Temporary dependencies to be able to use experimental classes -->
+        <dependency>
+            <groupId>io.smallrye.config</groupId>
+            <artifactId>smallrye-config</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.smallrye.common</groupId>
+            <artifactId>smallrye-common-annotation</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
