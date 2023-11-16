@@ -672,6 +672,10 @@
                                 <groupId>io.smallrye</groupId>
                                 <groupId>io.smallrye.*</groupId>
                             </groupIds>
+                            <excludedClasses>
+                                <excludedClass>org.eclipse.microprofile.reactive.messaging.Channel</excludedClass>
+                                <excludedClass>org.eclipse.microprofile.reactive.messaging.Incoming</excludedClass>
+                            </excludedClasses>
                         </filter>
                     </filters>
                 </configuration>
