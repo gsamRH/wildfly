@@ -18,7 +18,7 @@
         </fileSet>
         <fileSet>
             <directory>target/index</directory>
-            <outputDirectory>packages/experimental-api-index.wildfly-galleon-pack/content/</outputDirectory>
+            <outputDirectory>packages/unstable-annotation-api-index.wildfly-galleon-pack/content/</outputDirectory>
         </fileSet>
     </fileSets>
     <files>

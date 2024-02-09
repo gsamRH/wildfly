@@ -10,6 +10,6 @@
         <package name="product.conf" optional="true"/>
         <package name="misc.domain"/>
         <!-- Experimental API Index -->
-        <package name="experimental-api-index.wildfly-galleon-pack"/>
+        <package name="unstable-annotation-api-index.wildfly-galleon-pack"/>
     </packages>
 </config>

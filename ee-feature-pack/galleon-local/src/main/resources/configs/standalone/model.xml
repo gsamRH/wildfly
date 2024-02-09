@@ -35,6 +35,6 @@
         <package name="docs.licenses" optional="true"/>
         <package name="docs.licenses.merge" optional="true"/>
         <!-- Experimental API Index -->
-        <package name="experimental-api-index.wildfly-ee-feature-pack"/>
+        <package name="unstable-annotation-api-index.wildfly-ee-feature-pack"/>
     </packages>
 </config>

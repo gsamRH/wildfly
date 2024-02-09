@@ -661,8 +661,8 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.wildfly.experimental.api</groupId>
-                <artifactId>experimental-api-classpath-indexer-plugin</artifactId>
+                <groupId>org.wildfly.unstable.api.annotation</groupId>
+                <artifactId>unstable-api-annotation-classpath-indexer-plugin</artifactId>
                 <configuration>
                     <outputFile>${project.build.directory}/index/wildfly-galleon-pack.txt</outputFile>
                     <filters>
