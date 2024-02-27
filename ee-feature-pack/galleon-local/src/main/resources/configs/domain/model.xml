@@ -20,14 +20,12 @@
         <package name="org.jboss.as.domain-management"/>
         <!-- is not required but useful even if elytron subsystem is not installed -->
         <package name="org.wildfly.security.elytron"/>
-        <!-- Experimental API Index -->
-        <package name="org.wildfly._internal.unstable-annotation-api-index"/>
         <!-- cleanup runtime dirs -->
         <package name="cleanup.domain.config.history.dir" optional="true"/>
         <package name="cleanup.domain.servers.dir" optional="true"/>
         <package name="cleanup.domain.log.dir" optional="true"/>
         <package name="cleanup.domain.data.dir" optional="true"/>
-        <!-- Experimental API Index -->
-        <package name="unstable-annotation-api-index.wildfly-ee-feature-pack"/>
+        <!-- Unstable API Annotation Index -->
+        <package name="unstable-api-annotation-index.wildfly-ee-feature-pack"/>
     </packages>
 </config>

@@ -12,7 +12,7 @@
         <package name="misc.standalone"/>
         <package name="docs.licenses" optional="true"/>
         <package name="docs.licenses.merge" optional="true"/>
-        <!-- Experimental API Index -->
-        <package name="unstable-annotation-api-index.wildfly-galleon-pack"/>
+        <!-- Unstable API Annotation Index -->
+        <package name="unstable-api-annotation-index.wildfly-galleon-pack"/>
     </packages>
 </config>

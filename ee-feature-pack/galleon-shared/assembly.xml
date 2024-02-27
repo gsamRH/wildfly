@@ -18,7 +18,7 @@
         </fileSet>
         <fileSet>
             <directory>target/index</directory>
-            <outputDirectory>packages/unstable-annotation-api-index.wildfly-ee-feature-pack/content/</outputDirectory>
+            <outputDirectory>packages/unstable-api-annotation-index.wildfly-ee-feature-pack/content/</outputDirectory>
         </fileSet>
     </fileSets>
     <files>
